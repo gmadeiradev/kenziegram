@@ -5,63 +5,178 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kenziegram</title>
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 </head>
 
 <body>
+    <!-- header -->
     <header>
-        <h1>Maria Porcina</h1>
-        <h2>Developer Front-end</h2>
-        <h3>Uma pequena descrição sobre a minha pessoa</h3>
-
-        <figure>
-            <img src="https://source.unsplash.com/random/300x300/?people" alt="Maria Porcina">
-            <figcaption>Fonte: unsplash.com</figcaption>
-        </figure>
+        <div class="container">
+            <div class="row">
+                <div class="row__column row__column--left">
+                    <a href="#">
+                        <figure>
+                            <img src="./assets/img/logo.svg" alt="Logo Kenziegram">
+                            <figcaption class="hidden">Logo Kenziegram</figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <!-- end row__column row__column--left -->
+                <div class="row__Column row__column--right">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/home.svg" alt="Ícone Home">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/message.svg" alt="Ícone Mensagem">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/explore.svg" alt="Ícone Explore">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/notification.svg" alt="Ícone Notificações">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="./assets/img/profile.svg" alt="Ícone Perfil">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end row__Column row__column--right -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
     </header>
-
+    <!-- end header -->
+    <!-- main -->
     <main>
         <article>
-            <p>Este é um parágrafo com uma descrição sobre minha pessoa</p>
-            <p>Apenas um parágrafo</p>
+            <div class="container">
+                <section class="sectionAboutUser">
+                    <div class="row">
+                        <div class="row__column row__column--left">
+                            <figure>
+                                <img src="./assets/img/profile-pic.png" alt="Foto Perfil Usuário">
+                            </figure>
+                            <figcaption class="hidden">Foto Perfil Usuário</figcaption>
+                        </div>
+                        <!-- end row__column row__column--left -->
+                        <div class="row__column row__column--right">
+                            <article class="aboutUser">
+                                <div class="aboutUser__name">
+                                    <h2>kenzieacademybr</h2>
+                                    <button>Enviar Mensagem</button>
+                                </div>
+                                <!-- end aboutUser__name -->
+                                <div class="aboutUser__followers">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <strong>540</strong> publicações
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <strong>27,2 mil</strong> seguidores
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a href="#">
+                                                <strong>269</strong> seguindo
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- end aboutUser__followers -->
+                                <div class="aboutUser__description">
+                                    <h3>Kenzie Academy Brasil</h3>
+                                    <p>
+                                        Transforme sua vida com o curso de programação Full Stack da Kenzie. Comece
+                                        agora sua carreira na tecnologia e pague só quando estiver trabalhando.
+                                    </p>
+                                    <p>
+                                        <a href="#">linktr.ee/kenzieacademybr</a>
+                                    </p>
+                                </div>
+                            </article>
+                            <!-- end article aboutUser -->
+                        </div>
+                        <!-- end row__column row__column--right -->
+                    </div>
+                    <!-- end row -->
+                </section>
+                <!-- end section aboutUser -->
+                <section class="sectionHighlightsUser">
+                    <ul>
+                        <li>
+                            <figure>
+                                <img src="./assets/img/lancamento.png" alt="Imagem Destaque">
+                                <figcaption class="hidden">Imagem Destaque</figcaption>
+                            </figure>
+                            <h3>Lançamentos</h3>
+                        </li>
+
+                        <li>
+                            <figure>
+                                <img src="./assets/img/kenzie.png" alt="Imagem Destaque">
+                                <figcaption class="hidden">Imagem Destaque</figcaption>
+                            </figure>
+                            <h3>A Kenzie</h3>
+                        </li>
+
+                        <li>
+                            <figure>
+                                <img src="./assets/img/projetos.png" alt="Imagem Destaque">
+                                <figcaption class="hidden">Imagem Destaque</figcaption>
+                            </figure>
+                            <h3>Projetos</h3>
+                        </li>
+
+                        <li>
+                            <figure>
+                                <img src="./assets/img/namidia.png" alt="Imagem Destaque">
+                                <figcaption class="hidden">Imagem Destaque</figcaption>
+                            </figure>
+                            <h3>#NaMidia</h3>
+                        </li>
+
+                        <li>
+                            <figure>
+                                <img src="./assets/img/blog.png" alt="Imagem Destaque">
+                                <figcaption class="hidden">Imagem Destaque</figcaption>
+                            </figure>
+                            <h3>Blog Kenzie</h3>
+                        </li>
+
+                        <li>
+                            <figure>
+                                <img src="./assets/img/estudantes.png" alt="Imagem Destaque">
+                                <figcaption class="hidden">Imagem Destaque</figcaption>
+                            </figure>
+                            <h3>Estudantes</h3>
+                        </li>
+                    </ul>
+                </section>
+                <!-- end sectionHighlightsUser -->
+            </div>
+            <!-- end container -->
         </article>
-
-        <section>
-            <h3>Minhas habilidades</h3>
-
-            <ul>
-                <li><em>Javascript</em></li>
-                <li><strong>HTML</strong></li>
-                <li>CSS</li>
-                <li>Vue.js</li>
-            </ul>
-        </section>
-
-        <ol>
-            <li>Item <span>1</span></li>
-            <li>Item 2</li>
-            <li>Item 3</li>
-            <li>Item 4</li>
-        </ol>
-        <span>Esta é uma lista ordenada</span>
-
-        <div>
-            <a href="https://kenzie.com.br/">Kenzie</a>
-            <a href="https://google.com/">Google</a>
-        </div>
-
-        <aside>
-            <p>Anúncios</p>
-        </aside>
     </main>
-
-    <footer>
-        <ul>
-            <li>email</li>
-            <li>telefone</li>
-            <li>linkedin</li>
-        </ul>
-    </footer>
+    <!-- end main -->
 </body>
 
 </html>

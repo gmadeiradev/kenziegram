@@ -1,0 +1,92 @@
+/* 
+Theme Name: Kenziegram
+Author: Kenzie Academy
+Description: Esse é o Kenziegra
+===============
+Base Structure 
+===============
+*General
+*Body
+*Header
+*Footer
+*Home page
+*Extras
+*@media
+*/
+
+/* General */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    outline: none;
+    list-style: none;
+}
+.container {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.hidden {
+    display: none;
+}
+
+/* Body */
+body {}
+
+/* Header */
+header {
+    padding: 12px 0;
+}
+header .container {}
+header .row {
+    display: flex;
+    justify-content: space-between;
+}
+header .row__column {}
+header a {}
+header a figure img {}
+header ul {}
+header ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+header ul li a {}
+header ul li a img {}
+
+/* Footer */
+
+/* Home page */
+main {}
+main article {}
+main article .container {}
+main article .sectionAboutUser {}
+main article .sectionAboutUser .row {}
+main article .sectionAboutUser .row__column {}
+main article .sectionAboutUser figure {}
+main article .sectionAboutUser .aboutUser {}
+main article .sectionAboutUser .aboutUser__name {}
+main article .sectionAboutUser .aboutUser__name h2 {}
+main article .sectionAboutUser .aboutUser__name button {}
+main article .sectionAboutUser .aboutUser__followers {}
+main article .sectionAboutUser .aboutUser__followers ul {}
+main article .sectionAboutUser .aboutUser__followers ul li {}
+main article .sectionAboutUser .aboutUser__followers ul li a {}
+main article .sectionAboutUser .aboutUser__followers ul li a strong {}
+main article .sectionAboutUser .aboutUser__description {}
+main article .sectionAboutUser .aboutUser__description h3 {}
+main article .sectionAboutUser .aboutUser__description p {}
+main article .sectionAboutUser .aboutUser__description p a {}
+main article .sectionHighlightsUser {}
+main article .sectionHighlightsUser ul {}
+main article .sectionHighlightsUser ul li {}
+main article .sectionHighlightsUser ul li figure {}
+main article .sectionHighlightsUser ul li figure img {}
+main article .sectionHighlightsUser ul li figure img {}
+main article .sectionHighlightsUser ul li h3 {}
+
+/* Extras */
+
+/* @media */

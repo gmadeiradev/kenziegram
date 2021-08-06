@@ -28,6 +28,7 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small, 
     width: 100%;
     max-width: 950px;
     margin: 0 auto;
+    padding: 0 30px;
 }
 .hidden {
     display: none;
@@ -47,45 +48,97 @@ header .row {
 }
 header .row__column {}
 header a {}
-header a figure img {}
+header a figure img {
+    width: 115px;
+}
 header ul {}
 header ul li {
     display: inline-block;
     margin-left: 10px;
 }
 header ul li a {}
-header ul li a img {}
+header ul li a img {
+    width: 18px;
+}
 
 /* Footer */
 
 /* Home page */
-main {}
+main {
+    overflow: hidden;
+}
 main article {}
 main article .container {}
 main article .sectionAboutUser {}
 main article .sectionAboutUser .row {}
 main article .sectionAboutUser .row__column {}
 main article .sectionAboutUser figure {}
+main article .sectionAboutUser figure img {
+    width: 90px;
+}
 main article .sectionAboutUser .aboutUser {}
-main article .sectionAboutUser .aboutUser__name {}
-main article .sectionAboutUser .aboutUser__name h2 {}
-main article .sectionAboutUser .aboutUser__name button {}
-main article .sectionAboutUser .aboutUser__followers {}
-main article .sectionAboutUser .aboutUser__followers ul {}
+main article .sectionAboutUser .aboutUser__name {
+    display: flex;
+    align-items: center;
+}
+main article .sectionAboutUser .aboutUser__name h2 {
+    margin: 0;
+    font-size: 1.1ren;
+    margin-right: 10px;
+}
+main article .sectionAboutUser .aboutUser__name button {
+    font-size: 0.7rem;
+    padding: 7px 4px;
+    background: transparent;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    font-weight: 500;
+}
+main article .sectionAboutUser .aboutUser__followers {
+    margin-top: 20px;
+}
+main article .sectionAboutUser .aboutUser__followers ul {
+    display: flex;
+    text-align: center;
+}
 main article .sectionAboutUser .aboutUser__followers ul li {}
-main article .sectionAboutUser .aboutUser__followers ul li a {}
+main article .sectionAboutUser .aboutUser__followers ul li a {
+    color: #000;
+    
+}
 main article .sectionAboutUser .aboutUser__followers ul li a strong {}
-main article .sectionAboutUser .aboutUser__description {}
-main article .sectionAboutUser .aboutUser__description h3 {}
-main article .sectionAboutUser .aboutUser__description p {}
+main article .sectionAboutUser .aboutUser__description {
+    margin-top: 25px;
+}
+main article .sectionAboutUser .aboutUser__description h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+main article .sectionAboutUser .aboutUser__description p {
+    font-size: 0.8rem;
+}
 main article .sectionAboutUser .aboutUser__description p a {}
 main article .sectionHighlightsUser {}
-main article .sectionHighlightsUser ul {}
-main article .sectionHighlightsUser ul li {}
-main article .sectionHighlightsUser ul li figure {}
-main article .sectionHighlightsUser ul li figure img {}
-main article .sectionHighlightsUser ul li figure img {}
-main article .sectionHighlightsUser ul li h3 {}
+main article .sectionHighlightsUser ul {
+    display: flex;
+    margin-top: 30px;
+    overflow-x: scroll;
+}
+main article .sectionHighlightsUser ul li {
+    text-align: center;
+    margin-right: 10px;
+}
+main article .sectionHighlightsUser ul li figure {
+    
+}
+main article .sectionHighlightsUser ul li figure img {
+    width: 50px;
+}
+main article .sectionHighlightsUser ul li h3 {
+    font-size: 0.5rem;
+    margin: 0;
+}
 
 /* Extras */
 

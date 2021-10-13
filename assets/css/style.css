@@ -15,6 +15,7 @@ Base Structure
 */
 
 /* General */
+
 html, body, header, main, footer, article, div, span, p, a, figure, img, small, ul, li {
     margin: 0;
     padding: 0;
@@ -24,140 +25,184 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small, 
     outline: none;
     list-style: none;
 }
+
 .container {
     width: 100%;
     max-width: 850px;
     margin: 0 auto;
     padding: 0 30px;
 }
+
 .hidden {
     display: none;
 }
 
 /* Body */
+
 body {}
 
 /* Header */
+
 header {
     padding: 12px 0;
     border-bottom: 2px solid #DBDBDB;
 }
+
 header .container {}
+
 header .row {
     display: flex;
     justify-content: space-between;
 }
+
 header .row__column {}
+
 header a {}
+
 header a figure img {
     width: 115px;
 }
+
 header ul {}
+
 header ul li {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 5px;
 }
+
 header ul li a {}
+
 header ul li a img {
     width: 18px;
 }
 
 /* Home page */
+
 main {
     overflow: hidden;
     background-color: #FAFAFA;
     padding: 30px 0;
 }
+
 main article {}
+
 main article .container {}
+
 main article .sectionAboutUser {}
+
 main article .sectionAboutUser .row__column {}
+
 main article .sectionAboutUser figure {
     max-width: 90px;
     width: 100%;
-    border: 2px solid pink;
+    border: 2px solid #E1306C;
     border-radius: 100%;
     padding: 4px;
 }
+
 main article .sectionAboutUser figure img {
     display: block;
     width: 100%;
 }
+
 main article .sectionAboutUser .aboutUser {}
+
 main article .sectionAboutUser .aboutUser__name {
     display: flex;
     align-items: center;
 }
+
 main article .sectionAboutUser .aboutUser__name h2 {
     margin: 0;
     font-size: 1.1ren;
     margin-right: 10px;
 }
+
 main article .sectionAboutUser .aboutUser__name button {
     font-size: 0.7rem;
     padding: 7px 4px;
     background: transparent;
-    border: 1px solid #DBDBDB;
-    border-radius: 2px;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
     font-weight: 500;
 }
+
 main article .sectionAboutUser .aboutUser__followers {
     margin-top: 20px;
 }
+
 main article .sectionAboutUser .aboutUser__followers ul {
     display: flex;
     text-align: center;
     justify-content: space-between;
 }
+
 main article .sectionAboutUser .aboutUser__followers ul li {}
+
 main article .sectionAboutUser .aboutUser__followers ul li a {
     color: #000;
 }
+
 main article .sectionAboutUser .aboutUser__followers ul li a strong {}
+
 main article .sectionAboutUser .aboutUser__description {
     margin-top: 25px;
 }
+
 main article .sectionAboutUser .aboutUser__description h3 {
     margin: 0;
     margin-bottom: 10px;
     font-size: 0.9rem;
 }
+
 main article .sectionAboutUser .aboutUser__description p {
     font-size: 0.8rem;
 }
+
 main article .sectionAboutUser .aboutUser__description p a {
     color: #00376B;
     font-weight: 600;
 }
+
 main article .sectionHighlightsUser {}
+
 main article .sectionHighlightsUser ul {
     display: flex;
     margin-top: 30px;
     overflow-x: scroll;
 }
+
 main article .sectionHighlightsUser ul li {
     text-align: center;
     margin-right: 10px;
 }
+
 main article .sectionHighlightsUser ul li figure {}
+
 main article .sectionHighlightsUser ul li figure img {
     width: 50px;
 }
+
 main article .sectionHighlightsUser ul li h3 {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     margin: 0;
 }
+
 .feed {}
+
 .feed nav {}
+
 .feed .feed__menu {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     border-top: 1px solid #ccc;
 }
+
 .feed .feed__menu li {
     position: relative;
 }
+
 .feed .feed__menu li.active::before {
     content: "";
     display: block;
@@ -168,34 +213,42 @@ main article .sectionHighlightsUser ul li h3 {
     top: -1px;
     width: 100%;
 }
+
 .feed .feed__menu li a {
     font-size: 13px;
     padding: 0 5px;
     font-weight: bold;
     color: #000;
 }
+
 .feed__gallery {}
+
 .feed__gallery ul {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .feed__gallery ul li {
     width: 259px;
     height: 259px;
     margin-bottom: 10px;
     padding: 10px;
 }
+
 .feed__gallery ul li figure {}
+
 .feed__gallery ul li img {
     width: 100%;
 }
+
 .feed__gallery ul li figcaption {}
 
 /* Extras */
 
 /* @media */
+
 @media screen and (min-width: 620px) {
     .container {
         max-width: 590px;
@@ -218,6 +271,7 @@ main article .sectionHighlightsUser ul li h3 {
         margin: 0 22px;
     }
 }
+
 @media screen and (min-width: 840px) {
     .container {
         max-width: 770px;
@@ -255,6 +309,7 @@ main article .sectionHighlightsUser ul li h3 {
         margin: 0;
     }
 }
+
 @media screen and (min-width: 1200px) {
     .container {
         max-width: 840px;
